@@ -108,7 +108,7 @@ class WC_AlphaPay_Alipay extends WC_Payment_Gateway{
 					'type' => 'select',
 					'css' => 'width:400px',
 					'options'=>array(
-						'0'=>'Alphapay.com',
+						'0'=>'Alphapay.ca',
 						'1'=>'Alipay Official Page'
 					)
 				)

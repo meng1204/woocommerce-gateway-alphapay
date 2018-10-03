@@ -112,7 +112,7 @@ class WC_AlphaPay extends WC_Payment_Gateway{
 					'type' => 'select',
 					'css' => 'width:400px',
 					'options'=>array(
-						'0'=>'Alphapay.com',
+						'0'=>'Alphapay.ca',
 						'1'=>'Local'
 					)
 				),
@@ -329,6 +329,12 @@ class WC_AlphaPay extends WC_Payment_Gateway{
 		
 	    try {
 			$result = AlphaPay_API::generate_alphapay_order($order,'Wechat',"https://pay.alphapay.ca/api/v1.0/gateway/partners/%s/orders/%s");
+
+			if(!$result->code_url){
+				?><ul class="woocommerce-error">
+        			<li><?php echo 'There is Something Wrong with getting QR Code, Please Try Again!';?></li>
+        		</ul><?php
+			}
 
             ?>
             <p>请使用微信”扫一扫”扫描下方二维码进行支付。Please scan the QR Code using the Wechat App to complete payment.</p>	
