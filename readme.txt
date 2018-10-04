@@ -1,4 +1,4 @@
-﻿=== Alpha Pay - Wechat Pay & Alipay for WooCommerce (微信支付支付宝海外版)===
+﻿=== Alpha Pay - Wechat Pay & Alipay for WooCommerce (加拿大微信支付,支付宝)===
 Contributors: nico1204
 Tags: Wechat Pay, Alipay, 微信支付, 支付宝, Alpha Pay, 天捷支付, woocommerce, 加拿大, Canada
 Requires at least: 4.0
@@ -26,6 +26,9 @@ We make integrating Alipay and WeChat Pay for Canadian merchants easy and help e
 More information is on [Alpha Pay Website](https://www.alphapay.ca) and [contact us](https://www.alphapay.ca/apply) to get your account ready.
 
 
+== WooCommerce Live Demo ==
+Go to our [Live Demo](https://demo.alphapay.ca/wp).
+
 == Features and Benefits ==
 * One plugin integrates both Wechat Pay and Alipay. Merchants can enable Wechat Pay or Alipay or Both. 
 * Support pay from scanning QR Code on PC.
@@ -35,6 +38,8 @@ More information is on [Alpha Pay Website](https://www.alphapay.ca) and [contact
 * Customers pay with RMB and merchants receive CAD.
 * Currency accepts CAD & CNY.
 * Deposit to Canadian bank account directly.
+
+
 
 
 == Installation ==

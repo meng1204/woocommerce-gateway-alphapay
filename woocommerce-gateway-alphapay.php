@@ -1,6 +1,6 @@
 <?php
 /*
- * Plugin Name: Alpha Pay - Wechat Pay & Alipay for WooCommerce (微信支付宝海外版)
+ * Plugin Name: Alpha Pay - Wechat Pay & Alipay for WooCommerce (加拿大微信支付,支付宝)
  * Description: Alpha Pay - Accept Wechat Pay & Alipay in WooCommerce, 支持微信、支付宝扫码支付，微信、支付宝端快捷支付，退款，支付人民币商家收加币
  * Version: 1.0
  * Author: Alpha Pay
